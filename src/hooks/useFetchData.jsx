@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import axios from 'axios'
 export function useFetchData() {
   const [data, setData] = useState();
 
