@@ -19,7 +19,7 @@ function Task1() {
 
   return (
     <div>
-      <h2>Task 1</h2>
+      <h2>Task -1</h2>
       {fetchData?.map((item, index) => {
         return (
           <div key={`${index}+item`}>
