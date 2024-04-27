@@ -1,35 +1,36 @@
-import React, { useMemo } from "react";
-import { data } from "../../constants/data";
+import { useMemo } from 'react'
+import { data } from '../../constants/data'
 
 function Task1() {
-  const fetchData = useMemo(() => {
-    function fetchData(data) {
+  const dataFetch = useMemo(() => {
+    function dataFetch(data) {
       let dataEmail = data?.find((item) => {
-        if (item.attribute == "email") return item.attribute;
-      });
-      const channelData = dataEmail.emails.filter((item) =>
-        item.channel_id == 4505 ? item.channel_id : ""
-      );
+        if (item.attribute == 'email') return item.attribute
+      })
 
-      console.log("channelData", channelData);
-      return channelData;
+      const dataChannel = dataEmail.emails.filter((item) =>
+        item.channel_id == 4505 ? item.channel_id : '',
+      )
+
+      console.log(dataChannel, 'dataChannel')
+      return dataChannel
     }
-    return fetchData(data);
-  }, []);
 
+    return dataFetch(data)
+  }, [])
   return (
     <div>
-      <h2>Task-1</h2>
-      {fetchData?.map((item, index) => {
+      <h2>Task 1</h2>
+      {dataFetch?.map((item, index) => {
         return (
           <div key={`${index}+item`}>
-            <div>Channel-id: {item.channel_id}</div>
+            <div>Channel_id: {item.channel_id}</div>
             <div>Email: {item.email}</div>
           </div>
-        );
+        )
       })}
     </div>
-  );
+  )
 }
 
-export default Task1;
+export default Task1

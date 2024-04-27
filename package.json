@@ -1,5 +1,5 @@
 {
-  "name": "tasks",
+  "name": "exercise-11-04-2024",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,13 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.8.2",
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
     "formik": "^2.4.5",
-    "framer-motion": "^11.0.28",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0"

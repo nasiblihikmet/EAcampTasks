@@ -42,3 +42,4 @@ export const useGlobalContext = () => {
   const value = useContext(globalContext)
   return value
 }
+
