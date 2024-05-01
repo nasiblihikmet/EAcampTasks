@@ -43,7 +43,7 @@ function FormPerson() {
     dispatch({ type: TYPES.FORM, payload: data })
   }
   return (
-    <Form className="border p-4 bg-primary">
+    <Form className="border p-4 bg-secondary">
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>First Name</Form.Label>
         <Form.Control
@@ -107,7 +107,7 @@ function FormPerson() {
       </Form.Group>
 
       <Button
-        variant="danger"
+        variant="info"
         type="submit"
         className="w-100"
         onClick={handleSubmit}

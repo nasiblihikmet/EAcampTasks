@@ -7,7 +7,7 @@ export const globalContext = createContext()
 
 const initialValue = {
   basket: 0,
-  price: 1.49,
+  price: 5,
   form: {},
 }
 

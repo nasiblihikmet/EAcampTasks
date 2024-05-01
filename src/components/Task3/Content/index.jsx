@@ -17,12 +17,13 @@ function Content() {
   return (
     <div style={{ border: '1px solid black' }}>
       <img
-        src="https://www.applesfromny.com/wp-content/uploads/2020/05/Braeburn.png"
+        src="https://www.craftclothing.ph/cdn/shop/products/standard-plain-round-neck-shirt-white_a69ff83d-7778-45cc-9225-3cdca1327a21_600x.png?v=1644205060"
         alt="apple"
-        width={400}
+        width={300}
       />
-      <div>Apple</div>
-      <div>1.49 $</div>
+      <div>
+T-Shirt</div>
+      <div> 5 $</div>
       <div
         style={{
           display: 'flex',

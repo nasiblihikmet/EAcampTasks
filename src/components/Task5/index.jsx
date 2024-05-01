@@ -39,7 +39,7 @@ function Coins() {
       </ol>
 
       <img src={generalImg} width={200} />
-      <button onClick={handleCoin}>flip</button>
+      <button onClick={handleCoin} >flip</button>
     </div>
   );
 }

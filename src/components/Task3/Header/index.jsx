@@ -10,7 +10,7 @@ function Header() {
       style={{
         display: 'flex',
         padding: '20px',
-        backgroundColor: 'teal',
+        backgroundColor: 'green',
         justifyContent: 'space-around',
       }}
     >
